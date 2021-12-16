@@ -1,0 +1,212 @@
+body{
+  width:20%;
+  height:20%;
+  background-color: rgba(2, 2, 2, 0.993);
+}
+h1{
+  position: absolute;
+  z-index:4;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight: lighter;
+  font-style: italic;
+  /* width:100%; */
+  font-size: 25px;;
+  left:15%;
+  top:10%;
+  color:rgb(255, 210, 210);
+  /* background-color: rgba(97, 100, 134, 0.616); */
+ text-shadow: slateblue 5px 5px ;
+ 
+}
+
+.purse{
+    position:relative;
+
+    width:500px;
+   height:500px;
+    margin:5%;
+    padding:25px;
+    /* background-color:rgb(216, 206, 187); */
+    /* border-radius: 50%; */
+}
+.purse #purse{
+   position: absolute;
+    width:100%;
+    border-radius: 2%;
+
+}
+
+
+/* #mirror{
+    width:150px;
+    height:75px;
+    margin:2%;
+    padding:10px;
+    background-color: rgb(213, 222, 252);
+    border-radius: 10%;
+    position: absolute;
+} */
+
+#arduino{
+  width: 25%;
+  position: absolute;
+  left:37%;
+  top:69%;
+  opacity: 20%;
+  
+}
+
+
+#arduino:hover{
+    -webkit-animation-name: fadeIn;
+    -webkit-animation-duration: 1s;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+
+}
+#license{
+  
+    position: absolute;
+    z-index:2;
+    width:20%;
+    top:32%;
+    left:45%;
+    height:20px;
+    opacity:20%;
+    /* top:32%;
+    left:10%;
+    opacity:100%;
+    width:80% ;
+height:280px; */
+    /* background-color: rgb(83, 63, 44); */
+} 
+/* #id:hover{
+    -webkit-animation-name: idhover;
+    -webkit-animation-duration: 1s;
+    animation-name: idhover;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+
+} */
+
+@-webkit-keyframes appear { 
+  0% { opacity: 0%; 
+  left:600px;
+  top:30px;
+width:0%;
+font-size:0;}
+  100% { opacity: 100%; }
+}
+
+@keyframes appear {
+  0% { opacity: 0%;
+    left:350px;
+  top:140px; 
+width:0%;
+font-size:0;}
+  100% { opacity: 100%; }
+}
+
+
+@-webkit-keyframes fadeIn { 
+    0% { opacity: 20%; }
+    100% { opacity: 100%; }
+  }
+  
+  @keyframes fadeIn {
+    0% { opacity: 20%; }
+    100% { opacity: 100%; }
+  }
+
+
+
+
+  @-webkit-keyframes idclick { 
+    0% { }
+    100% { opacity:100%;
+        width:80% ;
+    height:280px;
+  }
+  }
+  
+  @keyframes idclick {
+    0% { }
+    100% { 
+        left:10%;
+        opacity:100%;
+        width:80% ;
+    height:280px;}
+  }
+.videocontainer{
+  /* position:absolute; */
+  
+}
+#mirror{
+  opacity:1;
+  position:absolute;
+  z-index:3;
+  width:200px;
+  height:50px;
+  border-radius:10%;
+  left:200px;
+  top:600px;
+}
+#vid{
+  opacity:0.5;
+  border-radius: 20%;
+  position:absolute;
+  z-index:2;
+  width:200px;
+  height:50px;
+  left:200px;
+  top:600px;
+}
+
+
+@-webkit-keyframes mirroran { 
+  0% { }
+  100% {  opacity:1;
+    position:absolute;
+    z-index:3;
+    width:500px;
+    height:400px;
+    border-radius:10%;
+    left:50px;
+    top:400px;
+}
+}
+
+@keyframes mirroran {
+  0% { opacity:0.5%;
+  }
+  100% { 
+    opacity:1;
+  position:absolute;
+  z-index:3;
+  width:500px;
+  height:400px;
+  border-radius:10%;
+  left:50px;
+  top:400px;  
+  }
+}
+
+@-webkit-keyframes videoan { 
+  0% { }
+  100% { opacity:100%;
+      width:80% ;
+  height:280px;
+}
+}
+
+@keyframes videoan {
+  0% { }
+  100% { 
+      left:10%;
+      opacity:100%;
+      width:80% ;
+  height:280px;
+  left:50px;
+  top:500px; }
+}
+
